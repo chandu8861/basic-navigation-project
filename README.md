@@ -1,92 +1,153 @@
-📍 Bangalore Pathfinder: AI Search Comparison
-A high-performance web application that visualizes pathfinding algorithms within the urban geography of Bengaluru. This tool compares Informed (A)* vs. Uninformed (Greedy Best-First) search strategies, simulating an AI agent navigating through over 150 landmarks.
+# 🗺️ Bangalore Pathfinder: AI Search Comparison
 
-🚀 Key Features
-Real-World Simulation: Navigate through 150+ Bengaluru landmarks, from Majestic to Whitefield ITPL.
+> **Visualizing intelligent navigation through the urban fabric of Bengaluru — comparing optimal vs. greedy pathfinding across 150+ real-world landmarks.**
 
-Dual-Algorithm Visualization:
+---
 
-A* Search (Optimal): Uses the Haversine Heuristic to guarantee the shortest path.
+## 📌 Overview
 
-Greedy BFS (Fast): Prioritizes immediate distance to the goal, demonstrating potential sub-optimal routing.
+**Bangalore Pathfinder** is a full-stack AI visualization tool that simulates an intelligent agent navigating Bengaluru's city graph. It provides a side-by-side comparison of two core AI search strategies — **A\* (Informed Search)** and **Greedy Best-First Search (Uninformed)** — demonstrating key differences in optimality, efficiency, and exploration behavior.
 
-Interactive Analytics Dashboard: Real-time metrics comparing total distance (km) and "nodes explored" to show algorithm efficiency.
+Built as a practical demonstration of foundational AI concepts from *Russell & Norvig's Artificial Intelligence: A Modern Approach*, this project bridges academic theory and real-world geography.
 
-Dual-View Display:
+---
 
-Geographic Map: Built with Leaflet.js for real-world orientation.
+## ✨ Features
 
-Mathematical Graph: A D3.js force-directed simulation showing the "state-space" web of the city.
+### 🧠 Dual-Algorithm Engine
+| Feature | A\* Search | Greedy BFS |
+|---|---|---|
+| **Strategy** | Informed (f = g + h) | Uninformed (f = h only) |
+| **Heuristic** | Haversine distance to goal | Haversine distance to goal |
+| **Optimality** | ✅ Guaranteed shortest path | ❌ May produce sub-optimal routes |
+| **Completeness** | ✅ Always finds a path if one exists | ⚠️ Can get trapped in local optima |
+| **Use Case** | Accuracy-first navigation | Speed-first exploration |
 
-Color-Coded Path Logic:
+### 🗺️ Dual-View Display
+- **Geographic Map** — Built with [Leaflet.js](https://leafletjs.com/), rendering real Bengaluru coordinates with polyline paths overlaid on interactive tile maps.
+- **Mathematical Graph** — A [D3.js](https://d3js.org/) force-directed simulation exposing the city's state-space web: nodes, edges, and algorithm-explored frontiers, animated in real time.
 
-🔵 Blue: A* Optimal Path.
+### 📊 Interactive Analytics Dashboard
+Live performance metrics update with every search run:
+- **Total Distance (km)** — Path length for each algorithm
+- **Nodes Explored** — A proxy for computational cost
+- **Path Length (hops)** — Number of intermediate landmarks traversed
 
-🟢 Green: Greedy Path.
+### 🎨 Color-Coded Path Rendering
+| Color | Meaning |
+|---|---|
+| 🔵 Blue | A\* Optimal Path |
+| 🟢 Green | Greedy BFS Path |
+| ⚪ White | Consensus Path (both algorithms agree) |
 
-⚪ White: Consensus (when both algorithms choose the same optimal route).
+### 🏙️ 150+ Bengaluru Landmarks
+From **Kempegowda Bus Station (Majestic)** to **Whitefield ITPL**, the graph covers major localities, tech corridors, transit hubs, and cultural nodes across the city.
 
-🛠️ Tech Stack
-Backend (The Brain)
-FastAPI: High-performance Python framework for algorithm execution.
+---
 
-Algorithms: Custom implementation of A* and Greedy Search using priority queues.
+## 🛠️ Tech Stack
 
-Data Structures: Graph represented via JSON adjacency lists.
+### Backend
+| Tool | Role |
+|---|---|
+| **FastAPI** | High-performance REST API server |
+| **Python 3.10+** | Algorithm logic and data processing |
+| **Priority Queue (heapq)** | Efficient open-set management for A\* and Greedy |
+| **Haversine Formula** | Geographic heuristic computation |
 
-Frontend (The Visuals)
-React.js: Component-based architecture for the dashboard UI.
+### Frontend
+| Tool | Role |
+|---|---|
+| **React.js** | Component-based UI architecture |
+| **D3.js** | Physics-based force simulation & graph rendering |
+| **Leaflet.js** | Interactive geographic map with tile layers |
+| **CSS3** | Cyber-tech dark theme with glassmorphism & neon glow effects |
 
-D3.js: Physics-based node simulation with animated dashed links and floating labels.
+---
 
-Leaflet.js: Interactive geographical mapping and polyline path rendering.
+## 🏗️ Project Structure
 
-CSS3: Cyber-tech dark theme with glassmorphism and neon glowing effects.
-
-🏗️ Project Structure
-Plaintext
+```
 Bangalore-Pathfinder/
+│
 ├── backend/
-│   ├── main.py            # FastAPI Server & API Routes
-│   ├── algorithms.py      # Search Logic (A* & Greedy)
-│   └── bangalore_map.json # 150+ Nodes (Lat/Lng) & Connections
-├── frontend/
-│   ├── src/
-│   │   ├── components/    
-│   │   │   ├── MapView.jsx     # Geographical Leaflet Map
-│   │   │   ├── GraphView.jsx   # D3.js Simulation
-│   │   │   └── Dashboard.jsx   # Performance Analytics
-│   │   ├── App.jsx        # Application Controller & State
-│   │   └── App.css        # Neon Styling & Layout
-│   └── index.css          # Global Reset & Body Styles
-🚦 Getting Started
-1. Prerequisites
-Python 3.10+
+│   ├── main.py               # FastAPI server & API route definitions
+│   ├── algorithms.py         # A* and Greedy BFS implementations
+│   └── bangalore_map.json    # 150+ nodes (lat/lng) & adjacency list
+│
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   ├── MapView.jsx       # Leaflet geographic map component
+    │   │   ├── GraphView.jsx     # D3.js force-directed graph component
+    │   │   └── Dashboard.jsx     # Real-time performance analytics panel
+    │   ├── App.jsx               # Application state controller & router
+    │   └── App.css               # Neon styling, glassmorphism, animations
+    └── index.css                 # Global CSS reset & body configuration
+```
 
-Node.js & npm
+---
 
-2. Setup Backend
-Bash
+## 🚦 Getting Started
+
+### Prerequisites
+- Python **3.10+**
+- Node.js **18+** & npm
+
+---
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/bangalore-pathfinder.git
+cd bangalore-pathfinder
+```
+
+### 2. Set Up the Backend
+```bash
 cd backend
 pip install fastapi uvicorn
 python main.py
-3. Setup Frontend
-Bash
-cd frontend
+```
+The API server starts at `http://localhost:8000`.
+
+> **Tip:** Visit `http://localhost:8000/docs` for the auto-generated Swagger UI to explore API endpoints interactively.
+
+### 3. Set Up the Frontend
+```bash
+cd ../frontend
 npm install
 npm run dev
-Open http://localhost:5173 in your browser.
+```
+Open `http://localhost:5173` in your browser.
 
-🧠 AI Concepts Implemented
-This project serves as a practical demonstration of core Artificial Intelligence principles:
+---
 
-Heuristic Functions: Utilizing the Haversine formula to calculate the "as-the-crow-flies" distance.
+## 🧠 AI Concepts Demonstrated
 
-Optimal vs. Complete Search: Proving that A* is both optimal and complete, whereas Greedy BFS can be trapped in sub-optimal loops.
+This project is a working implementation of concepts from classical AI search theory:
 
-Efficiency Analysis: Visualizing the "Open Set" and "Explored Set" through the nodes explored metric.
+### Heuristic Functions
+The **Haversine formula** computes great-circle distance between two geographic coordinates, serving as an **admissible and consistent heuristic** — it never overestimates the true cost, satisfying A\*'s optimality condition.
 
-👨‍💻 Author
-Chandu S
+### Informed vs. Uninformed Search
+- **A\*** evaluates nodes by `f(n) = g(n) + h(n)` — balancing the cost-so-far with the estimated cost-to-goal. This guarantees the optimal path.
+- **Greedy BFS** evaluates nodes by `f(n) = h(n)` alone — making locally optimal choices that may lead to globally sub-optimal routes.
 
-Affiliated with Bangalore Institute of Technology.
+### Frontier & Explored Set Visualization
+The **nodes explored** metric exposes the size of the explored set at termination, providing an intuitive window into each algorithm's search efficiency.
+
+### Optimality vs. Completeness Trade-off
+By running both algorithms on identical source-destination pairs, users can directly observe cases where Greedy BFS reaches the goal faster but via a longer route — a textbook illustration of the **optimality-efficiency trade-off** in AI search.
+
+---
+## 👨‍💻 Author
+
+**Chandu S**  
+B.E. Artificial Intelligence & Machine Learning  
+Bangalore Institute of Technology (BIT), Bengaluru
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ as a demonstration of AI search algorithms on real-world Bengaluru geography.</sub>
+</div>
