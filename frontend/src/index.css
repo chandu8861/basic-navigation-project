@@ -1,0 +1,9 @@
+/* This kills all default browser margins and Vite centering */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0f172a;
+}

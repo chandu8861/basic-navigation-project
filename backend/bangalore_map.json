@@ -1,0 +1,1486 @@
+{
+    "nodes": [
+        {
+            "id": "majestic",
+            "name": "Majestic (KSR)",
+            "lat": 12.9767,
+            "lng": 77.5713
+        },
+        {
+            "id": "mg_road",
+            "name": "MG Road",
+            "lat": 12.9733,
+            "lng": 77.6117
+        },
+        {
+            "id": "vidhana_soudha",
+            "name": "Vidhana Soudha",
+            "lat": 12.9796,
+            "lng": 77.5912
+        },
+        {
+            "id": "cubbon_park",
+            "name": "Cubbon Park",
+            "lat": 12.9779,
+            "lng": 77.5954
+        },
+        {
+            "id": "indiranagar",
+            "name": "Indiranagar",
+            "lat": 12.9719,
+            "lng": 77.6412
+        },
+        {
+            "id": "domlur",
+            "name": "Domlur",
+            "lat": 12.961,
+            "lng": 77.6387
+        },
+        {
+            "id": "koramangala",
+            "name": "Koramangala 5th Block",
+            "lat": 12.9352,
+            "lng": 77.6245
+        },
+        {
+            "id": "hsr_layout",
+            "name": "HSR Layout",
+            "lat": 12.9121,
+            "lng": 77.6446
+        },
+        {
+            "id": "btm_layout",
+            "name": "BTM Layout",
+            "lat": 12.9165,
+            "lng": 77.6101
+        },
+        {
+            "id": "jayanagar",
+            "name": "Jayanagar 4th Block",
+            "lat": 12.93,
+            "lng": 77.58
+        },
+        {
+            "id": "jp_nagar",
+            "name": "JP Nagar",
+            "lat": 12.9063,
+            "lng": 77.5857
+        },
+        {
+            "id": "whitefield",
+            "name": "Whitefield ITPL",
+            "lat": 12.9875,
+            "lng": 77.7341
+        },
+        {
+            "id": "marathahalli",
+            "name": "Marathahalli Bridge",
+            "lat": 12.9569,
+            "lng": 77.7011
+        },
+        {
+            "id": "kr_puram",
+            "name": "KR Puram",
+            "lat": 13.0163,
+            "lng": 77.7044
+        },
+        {
+            "id": "hebbal",
+            "name": "Hebbal Flyover",
+            "lat": 13.0354,
+            "lng": 77.5988
+        },
+        {
+            "id": "yeshwanthpur",
+            "name": "Yeshwanthpur",
+            "lat": 13.0235,
+            "lng": 77.5519
+        },
+        {
+            "id": "malleshwaram",
+            "name": "Malleshwaram",
+            "lat": 12.9982,
+            "lng": 77.5711
+        },
+        {
+            "id": "rajajinagar",
+            "name": "Rajajinagar",
+            "lat": 12.9892,
+            "lng": 77.5533
+        },
+        {
+            "id": "vijayanagar",
+            "name": "Vijayanagar",
+            "lat": 12.9691,
+            "lng": 77.5342
+        },
+        {
+            "id": "electronic_city",
+            "name": "Electronic City Ph 1",
+            "lat": 12.8452,
+            "lng": 77.6632
+        },
+        {
+            "id": "banashankari",
+            "name": "Banashankari",
+            "lat": 12.9254,
+            "lng": 77.5468
+        },
+        {
+            "id": "rr_nagar",
+            "name": "RR Nagar Gate",
+            "lat": 12.9242,
+            "lng": 77.5188
+        },
+        {
+            "id": "kengeri",
+            "name": "Kengeri",
+            "lat": 12.9176,
+            "lng": 77.4837
+        },
+        {
+            "id": "yelahanka",
+            "name": "Yelahanka",
+            "lat": 13.1007,
+            "lng": 77.5963
+        },
+        {
+            "id": "rt_nagar",
+            "name": "RT Nagar",
+            "lat": 13.0247,
+            "lng": 77.5948
+        },
+        {
+            "id": "peenya",
+            "name": "Peenya Industrial Area",
+            "lat": 13.0285,
+            "lng": 77.5197
+        },
+        {
+            "id": "dasarahalli",
+            "name": "T. Dasarahalli",
+            "lat": 13.0438,
+            "lng": 77.5134
+        },
+        {
+            "id": "jalahalli",
+            "name": "Jalahalli Cross",
+            "lat": 13.0519,
+            "lng": 77.5218
+        },
+        {
+            "id": "mathikere",
+            "name": "Mathikere",
+            "lat": 13.0324,
+            "lng": 77.5591
+        },
+        {
+            "id": "nandini_layout",
+            "name": "Nandini Layout",
+            "lat": 13.0125,
+            "lng": 77.5385
+        },
+        {
+            "id": "mahalakshmi_layout",
+            "name": "Mahalakshmi Layout",
+            "lat": 13.0113,
+            "lng": 77.5484
+        },
+        {
+            "id": "basaveshwaranagar",
+            "name": "Basaveshwaranagar",
+            "lat": 12.984,
+            "lng": 77.5387
+        },
+        {
+            "id": "kamakshipalya",
+            "name": "Kamakshipalya",
+            "lat": 12.9818,
+            "lng": 77.5255
+        },
+        {
+            "id": "nagarbhavi",
+            "name": "Nagarbhavi BDV",
+            "lat": 12.9719,
+            "lng": 77.5127
+        },
+        {
+            "id": "wilson_garden",
+            "name": "Wilson Garden",
+            "lat": 12.9482,
+            "lng": 77.5971
+        },
+        {
+            "id": "shanti_nagar",
+            "name": "Shanti Nagar",
+            "lat": 12.9538,
+            "lng": 77.591
+        },
+        {
+            "id": "basavanagudi",
+            "name": "Basavanagudi (Gandhi Bazaar)",
+            "lat": 12.9417,
+            "lng": 77.5755
+        },
+        {
+            "id": "vv_puram",
+            "name": "VV Puram Food Street",
+            "lat": 12.9515,
+            "lng": 77.5779
+        },
+        {
+            "id": "padmanabhanagar",
+            "name": "Padmanabhanagar",
+            "lat": 12.9181,
+            "lng": 77.5587
+        },
+        {
+            "id": "kumaraswamy_layout",
+            "name": "Kumaraswamy Layout",
+            "lat": 12.9079,
+            "lng": 77.5539
+        },
+        {
+            "id": "bannerghatta_rd",
+            "name": "Bannerghatta Rd (IIMB)",
+            "lat": 12.895,
+            "lng": 77.601
+        },
+        {
+            "id": "arekere",
+            "name": "Arekere MICO Layout",
+            "lat": 12.8837,
+            "lng": 77.5996
+        },
+        {
+            "id": "hulimavu",
+            "name": "Hulimavu Gate",
+            "lat": 12.8711,
+            "lng": 77.5966
+        },
+        {
+            "id": "kalyan_nagar",
+            "name": "Kalyan Nagar",
+            "lat": 13.0232,
+            "lng": 77.6394
+        },
+        {
+            "id": "kammanahalli",
+            "name": "Kammanahalli",
+            "lat": 13.0159,
+            "lng": 77.6378
+        },
+        {
+            "id": "banaswadi",
+            "name": "Banaswadi",
+            "lat": 13.0101,
+            "lng": 77.6482
+        },
+        {
+            "id": "hbr_layout",
+            "name": "HBR Layout",
+            "lat": 13.0358,
+            "lng": 77.6323
+        },
+        {
+            "id": "hennur",
+            "name": "Hennur Cross",
+            "lat": 13.0305,
+            "lng": 77.6358
+        },
+        {
+            "id": "horamavu",
+            "name": "Horamavu",
+            "lat": 13.0273,
+            "lng": 77.661
+        },
+        {
+            "id": "mahadevapura",
+            "name": "Mahadevapura",
+            "lat": 12.9895,
+            "lng": 77.6961
+        },
+        {
+            "id": "hoodi",
+            "name": "Hoodi Junction",
+            "lat": 12.9919,
+            "lng": 77.7163
+        },
+        {
+            "id": "kadugodi",
+            "name": "Kadugodi",
+            "lat": 12.9985,
+            "lng": 77.7613
+        },
+        {
+            "id": "sahakara_nagar",
+            "name": "Sahakara Nagar",
+            "lat": 13.0623,
+            "lng": 77.5855
+        },
+        {
+            "id": "vidayaranyapura",
+            "name": "Vidyaranyapura",
+            "lat": 13.0786,
+            "lng": 77.5574
+        },
+        {
+            "id": "bel_circle",
+            "name": "BEL Circle",
+            "lat": 13.0475,
+            "lng": 77.5614
+        },
+        {
+            "id": "sanjay_nagar",
+            "name": "Sanjay Nagar",
+            "lat": 13.0338,
+            "lng": 77.5786
+        },
+        {
+            "id": "jakkur",
+            "name": "Jakkur Aerodrome",
+            "lat": 13.0784,
+            "lng": 77.6071
+        },
+        {
+            "id": "manyata",
+            "name": "Manyata Tech Park",
+            "lat": 13.0451,
+            "lng": 77.6204
+        },
+        {
+            "id": "nagavara",
+            "name": "Nagavara Junction",
+            "lat": 13.0402,
+            "lng": 77.6191
+        },
+        {
+            "id": "thanisandra",
+            "name": "Thanisandra",
+            "lat": 13.0545,
+            "lng": 77.6321
+        },
+        {
+            "id": "yelahanka_new_town",
+            "name": "Yelahanka New Town",
+            "lat": 13.0978,
+            "lng": 77.5812
+        },
+        {
+            "id": "loc_1",
+            "name": "Area 1 Block",
+            "lat": 12.913652295853549,
+            "lng": 77.49048825725194
+        },
+        {
+            "id": "loc_2",
+            "name": "Area 2 Block",
+            "lat": 12.84716157170806,
+            "lng": 77.63376696462059
+        },
+        {
+            "id": "loc_3",
+            "name": "Area 3 Block",
+            "lat": 12.940217047312496,
+            "lng": 77.5462507035397
+        },
+        {
+            "id": "loc_4",
+            "name": "Area 4 Block",
+            "lat": 13.005175148476287,
+            "lng": 77.57254473840935
+        },
+        {
+            "id": "loc_5",
+            "name": "Area 5 Block",
+            "lat": 12.966675356151963,
+            "lng": 77.722338694811
+        },
+        {
+            "id": "loc_6",
+            "name": "Area 6 Block",
+            "lat": 12.852039881298747,
+            "lng": 77.66665820755983
+        },
+        {
+            "id": "loc_7",
+            "name": "Area 7 Block",
+            "lat": 13.070805245056203,
+            "lng": 77.63598234791114
+        },
+        {
+            "id": "loc_8",
+            "name": "Area 8 Block",
+            "lat": 12.8834028255409,
+            "lng": 77.52676460335171
+        },
+        {
+            "id": "loc_9",
+            "name": "Area 9 Block",
+            "lat": 13.074417293793662,
+            "lng": 77.69337902479938
+        },
+        {
+            "id": "loc_10",
+            "name": "Area 10 Block",
+            "lat": 12.926105073712078,
+            "lng": 77.71733169225425
+        },
+        {
+            "id": "loc_11",
+            "name": "Area 11 Block",
+            "lat": 12.976953765683415,
+            "lng": 77.6143642894889
+        },
+        {
+            "id": "loc_12",
+            "name": "Area 12 Block",
+            "lat": 12.973786227696504,
+            "lng": 77.50084768635902
+        },
+        {
+            "id": "loc_13",
+            "name": "Area 13 Block",
+            "lat": 13.002899010426322,
+            "lng": 77.70292413116462
+        },
+        {
+            "id": "loc_14",
+            "name": "Area 14 Block",
+            "lat": 12.916121131143298,
+            "lng": 77.5742614316212
+        },
+        {
+            "id": "loc_15",
+            "name": "Area 15 Block",
+            "lat": 12.97558459927549,
+            "lng": 77.69578388543559
+        },
+        {
+            "id": "loc_16",
+            "name": "Area 16 Block",
+            "lat": 12.895032224636388,
+            "lng": 77.53476611185536
+        },
+        {
+            "id": "loc_17",
+            "name": "Area 17 Block",
+            "lat": 12.950500465580317,
+            "lng": 77.69495905770393
+        },
+        {
+            "id": "loc_18",
+            "name": "Area 18 Block",
+            "lat": 12.90781399930524,
+            "lng": 77.68463972067
+        },
+        {
+            "id": "loc_19",
+            "name": "Area 19 Block",
+            "lat": 13.012492227130357,
+            "lng": 77.6297666970819
+        },
+        {
+            "id": "loc_20",
+            "name": "Area 20 Block",
+            "lat": 12.98053582065965,
+            "lng": 77.58896912670312
+        },
+        {
+            "id": "loc_21",
+            "name": "Area 21 Block",
+            "lat": 13.009172169445032,
+            "lng": 77.56643609608737
+        },
+        {
+            "id": "loc_22",
+            "name": "Area 22 Block",
+            "lat": 12.938046709626699,
+            "lng": 77.55637893956464
+        },
+        {
+            "id": "loc_23",
+            "name": "Area 23 Block",
+            "lat": 12.868339295570554,
+            "lng": 77.494900772399
+        },
+        {
+            "id": "loc_24",
+            "name": "Area 24 Block",
+            "lat": 13.072452418124088,
+            "lng": 77.59625097617192
+        },
+        {
+            "id": "loc_25",
+            "name": "Area 25 Block",
+            "lat": 13.094379054307366,
+            "lng": 77.59133712093177
+        },
+        {
+            "id": "loc_26",
+            "name": "Area 26 Block",
+            "lat": 13.025201018391899,
+            "lng": 77.68423938773135
+        },
+        {
+            "id": "loc_27",
+            "name": "Area 27 Block",
+            "lat": 13.015978342569813,
+            "lng": 77.69860772514816
+        },
+        {
+            "id": "loc_28",
+            "name": "Area 28 Block",
+            "lat": 12.952663482413945,
+            "lng": 77.52323088257154
+        },
+        {
+            "id": "loc_29",
+            "name": "Area 29 Block",
+            "lat": 13.076273018107706,
+            "lng": 77.67593670036011
+        },
+        {
+            "id": "loc_30",
+            "name": "Area 30 Block",
+            "lat": 13.061985490999525,
+            "lng": 77.75865984626378
+        },
+        {
+            "id": "loc_31",
+            "name": "Area 31 Block",
+            "lat": 13.065196927785694,
+            "lng": 77.65958528713222
+        },
+        {
+            "id": "loc_32",
+            "name": "Area 32 Block",
+            "lat": 13.000228497731786,
+            "lng": 77.57543811857833
+        },
+        {
+            "id": "loc_33",
+            "name": "Area 33 Block",
+            "lat": 12.850709128584143,
+            "lng": 77.75051379417722
+        },
+        {
+            "id": "loc_34",
+            "name": "Area 34 Block",
+            "lat": 12.974738514818037,
+            "lng": 77.61562996909065
+        },
+        {
+            "id": "loc_35",
+            "name": "Area 35 Block",
+            "lat": 13.097003793368021,
+            "lng": 77.64827361196451
+        },
+        {
+            "id": "loc_36",
+            "name": "Area 36 Block",
+            "lat": 12.8520039932348,
+            "lng": 77.54639157301426
+        },
+        {
+            "id": "loc_37",
+            "name": "Area 37 Block",
+            "lat": 13.060557286955547,
+            "lng": 77.56303682549948
+        },
+        {
+            "id": "loc_38",
+            "name": "Area 38 Block",
+            "lat": 13.052700266284416,
+            "lng": 77.50818938520364
+        },
+        {
+            "id": "loc_39",
+            "name": "Area 39 Block",
+            "lat": 12.953056161429707,
+            "lng": 77.4967300410675
+        }
+    ],
+    "links": [
+        {
+            "source": "majestic",
+            "target": "mg_road",
+            "distance": 4.5
+        },
+        {
+            "source": "mg_road",
+            "target": "indiranagar",
+            "distance": 4.0
+        },
+        {
+            "source": "indiranagar",
+            "target": "domlur",
+            "distance": 2.5
+        },
+        {
+            "source": "domlur",
+            "target": "koramangala",
+            "distance": 3.0
+        },
+        {
+            "source": "koramangala",
+            "target": "hsr_layout",
+            "distance": 4.0
+        },
+        {
+            "source": "hsr_layout",
+            "target": "electronic_city",
+            "distance": 11.0
+        },
+        {
+            "source": "koramangala",
+            "target": "btm_layout",
+            "distance": 3.5
+        },
+        {
+            "source": "btm_layout",
+            "target": "jayanagar",
+            "distance": 4.0
+        },
+        {
+            "source": "jayanagar",
+            "target": "jp_nagar",
+            "distance": 2.5
+        },
+        {
+            "source": "hebbal",
+            "target": "rt_nagar",
+            "distance": 3.0
+        },
+        {
+            "source": "rt_nagar",
+            "target": "mg_road",
+            "distance": 6.0
+        },
+        {
+            "source": "majestic",
+            "target": "malleshwaram",
+            "distance": 3.0
+        },
+        {
+            "source": "malleshwaram",
+            "target": "yeshwanthpur",
+            "distance": 3.5
+        },
+        {
+            "source": "yeshwanthpur",
+            "target": "hebbal",
+            "distance": 7.5
+        },
+        {
+            "source": "indiranagar",
+            "target": "marathahalli",
+            "distance": 7.0
+        },
+        {
+            "source": "marathahalli",
+            "target": "whitefield",
+            "distance": 6.5
+        },
+        {
+            "source": "whitefield",
+            "target": "kr_puram",
+            "distance": 9.0
+        },
+        {
+            "source": "kr_puram",
+            "target": "hebbal",
+            "distance": 11.5
+        },
+        {
+            "source": "yeshwanthpur",
+            "target": "peenya",
+            "distance": 4.5
+        },
+        {
+            "source": "peenya",
+            "target": "dasarahalli",
+            "distance": 2.2
+        },
+        {
+            "source": "dasarahalli",
+            "target": "jalahalli",
+            "distance": 1.5
+        },
+        {
+            "source": "yeshwanthpur",
+            "target": "mathikere",
+            "distance": 2.0
+        },
+        {
+            "source": "mathikere",
+            "target": "hebbal",
+            "distance": 5.5
+        },
+        {
+            "source": "rajajinagar",
+            "target": "mahalakshmi_layout",
+            "distance": 2.8
+        },
+        {
+            "source": "mahalakshmi_layout",
+            "target": "nandini_layout",
+            "distance": 1.8
+        },
+        {
+            "source": "rajajinagar",
+            "target": "basaveshwaranagar",
+            "distance": 2.5
+        },
+        {
+            "source": "basaveshwaranagar",
+            "target": "vijayanagar",
+            "distance": 3.0
+        },
+        {
+            "source": "majestic",
+            "target": "shanti_nagar",
+            "distance": 3.5
+        },
+        {
+            "source": "shanti_nagar",
+            "target": "wilson_garden",
+            "distance": 1.2
+        },
+        {
+            "source": "wilson_garden",
+            "target": "koramangala",
+            "distance": 4.5
+        },
+        {
+            "source": "shanti_nagar",
+            "target": "basavanagudi",
+            "distance": 3.0
+        },
+        {
+            "source": "basavanagudi",
+            "target": "jayanagar",
+            "distance": 2.5
+        },
+        {
+            "source": "jayanagar",
+            "target": "banashankari",
+            "distance": 3.5
+        },
+        {
+            "source": "banashankari",
+            "target": "padmanabhanagar",
+            "distance": 2.0
+        },
+        {
+            "source": "padmanabhanagar",
+            "target": "kumaraswamy_layout",
+            "distance": 1.5
+        },
+        {
+            "source": "btm_layout",
+            "target": "bannerghatta_rd",
+            "distance": 3.2
+        },
+        {
+            "source": "bannerghatta_rd",
+            "target": "arekere",
+            "distance": 2.5
+        },
+        {
+            "source": "arekere",
+            "target": "hulimavu",
+            "distance": 1.8
+        },
+        {
+            "source": "hebbal",
+            "target": "manyata",
+            "distance": 3.5
+        },
+        {
+            "source": "manyata",
+            "target": "nagavara",
+            "distance": 1.2
+        },
+        {
+            "source": "nagavara",
+            "target": "hbr_layout",
+            "distance": 2.5
+        },
+        {
+            "source": "hbr_layout",
+            "target": "kalyan_nagar",
+            "distance": 1.8
+        },
+        {
+            "source": "kalyan_nagar",
+            "target": "banaswadi",
+            "distance": 2.2
+        },
+        {
+            "source": "banaswadi",
+            "target": "kr_puram",
+            "distance": 5.0
+        },
+        {
+            "source": "kr_puram",
+            "target": "mahadevapura",
+            "distance": 3.0
+        },
+        {
+            "source": "mahadevapura",
+            "target": "marathahalli",
+            "distance": 4.5
+        },
+        {
+            "source": "mahadevapura",
+            "target": "hoodi",
+            "distance": 2.8
+        },
+        {
+            "source": "hoodi",
+            "target": "whitefield",
+            "distance": 3.5
+        },
+        {
+            "source": "whitefield",
+            "target": "kadugodi",
+            "distance": 4.0
+        },
+        {
+            "source": "hebbal",
+            "target": "sahakara_nagar",
+            "distance": 3.2
+        },
+        {
+            "source": "sahakara_nagar",
+            "target": "yelahanka",
+            "distance": 5.5
+        },
+        {
+            "source": "yelahanka",
+            "target": "yelahanka_new_town",
+            "distance": 2.0
+        },
+        {
+            "source": "hebbal",
+            "target": "jakkur",
+            "distance": 5.0
+        },
+        {
+            "source": "jakkur",
+            "target": "thanisandra",
+            "distance": 3.5
+        },
+        {
+            "source": "yeshwanthpur",
+            "target": "bel_circle",
+            "distance": 3.0
+        },
+        {
+            "source": "bel_circle",
+            "target": "vidayaranyapura",
+            "distance": 4.5
+        },
+        {
+            "source": "loc_1",
+            "target": "kengeri",
+            "distance": 0.86
+        },
+        {
+            "source": "loc_1",
+            "target": "rr_nagar",
+            "distance": 3.28
+        },
+        {
+            "source": "loc_1",
+            "target": "loc_39",
+            "distance": 4.43
+        },
+        {
+            "source": "loc_2",
+            "target": "electronic_city",
+            "distance": 3.2
+        },
+        {
+            "source": "loc_2",
+            "target": "loc_6",
+            "distance": 3.61
+        },
+        {
+            "source": "loc_2",
+            "target": "hulimavu",
+            "distance": 4.83
+        },
+        {
+            "source": "loc_3",
+            "target": "loc_22",
+            "distance": 1.12
+        },
+        {
+            "source": "loc_3",
+            "target": "banashankari",
+            "distance": 1.65
+        },
+        {
+            "source": "loc_3",
+            "target": "padmanabhanagar",
+            "distance": 2.81
+        },
+        {
+            "source": "loc_4",
+            "target": "loc_32",
+            "distance": 0.63
+        },
+        {
+            "source": "loc_4",
+            "target": "malleshwaram",
+            "distance": 0.79
+        },
+        {
+            "source": "loc_4",
+            "target": "loc_21",
+            "distance": 0.8
+        },
+        {
+            "source": "loc_5",
+            "target": "marathahalli",
+            "distance": 2.55
+        },
+        {
+            "source": "loc_5",
+            "target": "whitefield",
+            "distance": 2.64
+        },
+        {
+            "source": "loc_5",
+            "target": "hoodi",
+            "distance": 2.88
+        },
+        {
+            "source": "loc_6",
+            "target": "electronic_city",
+            "distance": 0.85
+        },
+        {
+            "source": "loc_6",
+            "target": "loc_2",
+            "distance": 3.61
+        },
+        {
+            "source": "loc_6",
+            "target": "loc_18",
+            "distance": 6.5
+        },
+        {
+            "source": "loc_7",
+            "target": "thanisandra",
+            "distance": 1.86
+        },
+        {
+            "source": "loc_7",
+            "target": "loc_31",
+            "distance": 2.63
+        },
+        {
+            "source": "loc_7",
+            "target": "loc_35",
+            "distance": 3.2
+        },
+        {
+            "source": "loc_8",
+            "target": "loc_16",
+            "distance": 1.56
+        },
+        {
+            "source": "loc_8",
+            "target": "loc_23",
+            "distance": 3.84
+        },
+        {
+            "source": "loc_8",
+            "target": "kumaraswamy_layout",
+            "distance": 4.01
+        },
+        {
+            "source": "loc_9",
+            "target": "loc_29",
+            "distance": 1.9
+        },
+        {
+            "source": "loc_9",
+            "target": "loc_31",
+            "distance": 3.8
+        },
+        {
+            "source": "loc_9",
+            "target": "loc_35",
+            "distance": 5.49
+        },
+        {
+            "source": "loc_10",
+            "target": "loc_17",
+            "distance": 3.64
+        },
+        {
+            "source": "loc_10",
+            "target": "marathahalli",
+            "distance": 3.85
+        },
+        {
+            "source": "loc_10",
+            "target": "loc_18",
+            "distance": 4.09
+        },
+        {
+            "source": "loc_11",
+            "target": "loc_34",
+            "distance": 0.28
+        },
+        {
+            "source": "loc_11",
+            "target": "mg_road",
+            "distance": 0.5
+        },
+        {
+            "source": "loc_11",
+            "target": "cubbon_park",
+            "distance": 2.06
+        },
+        {
+            "source": "loc_12",
+            "target": "nagarbhavi",
+            "distance": 1.3
+        },
+        {
+            "source": "loc_12",
+            "target": "loc_39",
+            "distance": 2.35
+        },
+        {
+            "source": "loc_12",
+            "target": "kamakshipalya",
+            "distance": 2.82
+        },
+        {
+            "source": "loc_13",
+            "target": "kr_puram",
+            "distance": 1.5
+        },
+        {
+            "source": "loc_13",
+            "target": "loc_27",
+            "distance": 1.53
+        },
+        {
+            "source": "loc_13",
+            "target": "mahadevapura",
+            "distance": 1.66
+        },
+        {
+            "source": "loc_14",
+            "target": "jp_nagar",
+            "distance": 1.65
+        },
+        {
+            "source": "loc_14",
+            "target": "jayanagar",
+            "distance": 1.66
+        },
+        {
+            "source": "loc_14",
+            "target": "padmanabhanagar",
+            "distance": 1.7
+        },
+        {
+            "source": "loc_15",
+            "target": "mahadevapura",
+            "distance": 1.55
+        },
+        {
+            "source": "loc_15",
+            "target": "marathahalli",
+            "distance": 2.16
+        },
+        {
+            "source": "loc_15",
+            "target": "loc_17",
+            "distance": 2.79
+        },
+        {
+            "source": "loc_16",
+            "target": "loc_8",
+            "distance": 1.56
+        },
+        {
+            "source": "loc_16",
+            "target": "kumaraswamy_layout",
+            "distance": 2.52
+        },
+        {
+            "source": "loc_16",
+            "target": "banashankari",
+            "distance": 3.62
+        },
+        {
+            "source": "loc_17",
+            "target": "marathahalli",
+            "distance": 0.97
+        },
+        {
+            "source": "loc_17",
+            "target": "loc_15",
+            "distance": 2.79
+        },
+        {
+            "source": "loc_17",
+            "target": "loc_5",
+            "distance": 3.47
+        },
+        {
+            "source": "loc_18",
+            "target": "loc_10",
+            "distance": 4.09
+        },
+        {
+            "source": "loc_18",
+            "target": "hsr_layout",
+            "distance": 4.37
+        },
+        {
+            "source": "loc_18",
+            "target": "loc_17",
+            "distance": 4.88
+        },
+        {
+            "source": "loc_19",
+            "target": "kammanahalli",
+            "distance": 0.95
+        },
+        {
+            "source": "loc_19",
+            "target": "kalyan_nagar",
+            "distance": 1.58
+        },
+        {
+            "source": "loc_19",
+            "target": "banaswadi",
+            "distance": 2.01
+        },
+        {
+            "source": "loc_20",
+            "target": "vidhana_soudha",
+            "distance": 0.26
+        },
+        {
+            "source": "loc_20",
+            "target": "cubbon_park",
+            "distance": 0.76
+        },
+        {
+            "source": "loc_20",
+            "target": "majestic",
+            "distance": 1.96
+        },
+        {
+            "source": "loc_21",
+            "target": "loc_4",
+            "distance": 0.8
+        },
+        {
+            "source": "loc_21",
+            "target": "malleshwaram",
+            "distance": 1.32
+        },
+        {
+            "source": "loc_21",
+            "target": "loc_32",
+            "distance": 1.39
+        },
+        {
+            "source": "loc_22",
+            "target": "loc_3",
+            "distance": 1.12
+        },
+        {
+            "source": "loc_22",
+            "target": "banashankari",
+            "distance": 1.75
+        },
+        {
+            "source": "loc_22",
+            "target": "basavanagudi",
+            "distance": 2.11
+        },
+        {
+            "source": "loc_23",
+            "target": "loc_8",
+            "distance": 3.84
+        },
+        {
+            "source": "loc_23",
+            "target": "loc_1",
+            "distance": 5.06
+        },
+        {
+            "source": "loc_23",
+            "target": "loc_16",
+            "distance": 5.24
+        },
+        {
+            "source": "loc_24",
+            "target": "jakkur",
+            "distance": 1.35
+        },
+        {
+            "source": "loc_24",
+            "target": "sahakara_nagar",
+            "distance": 1.62
+        },
+        {
+            "source": "loc_24",
+            "target": "loc_25",
+            "distance": 2.5
+        },
+        {
+            "source": "loc_25",
+            "target": "yelahanka",
+            "distance": 0.88
+        },
+        {
+            "source": "loc_25",
+            "target": "yelahanka_new_town",
+            "distance": 1.16
+        },
+        {
+            "source": "loc_25",
+            "target": "jakkur",
+            "distance": 2.46
+        },
+        {
+            "source": "loc_26",
+            "target": "loc_27",
+            "distance": 1.86
+        },
+        {
+            "source": "loc_26",
+            "target": "kr_puram",
+            "distance": 2.4
+        },
+        {
+            "source": "loc_26",
+            "target": "horamavu",
+            "distance": 2.53
+        },
+        {
+            "source": "loc_27",
+            "target": "kr_puram",
+            "distance": 0.63
+        },
+        {
+            "source": "loc_27",
+            "target": "loc_13",
+            "distance": 1.53
+        },
+        {
+            "source": "loc_27",
+            "target": "loc_26",
+            "distance": 1.86
+        },
+        {
+            "source": "loc_28",
+            "target": "vijayanagar",
+            "distance": 2.18
+        },
+        {
+            "source": "loc_28",
+            "target": "nagarbhavi",
+            "distance": 2.42
+        },
+        {
+            "source": "loc_28",
+            "target": "loc_3",
+            "distance": 2.85
+        },
+        {
+            "source": "loc_29",
+            "target": "loc_9",
+            "distance": 1.9
+        },
+        {
+            "source": "loc_29",
+            "target": "loc_31",
+            "distance": 2.16
+        },
+        {
+            "source": "loc_29",
+            "target": "loc_35",
+            "distance": 3.78
+        },
+        {
+            "source": "loc_30",
+            "target": "kadugodi",
+            "distance": 7.07
+        },
+        {
+            "source": "loc_30",
+            "target": "loc_9",
+            "distance": 7.2
+        },
+        {
+            "source": "loc_30",
+            "target": "kr_puram",
+            "distance": 7.77
+        },
+        {
+            "source": "loc_31",
+            "target": "loc_29",
+            "distance": 2.16
+        },
+        {
+            "source": "loc_31",
+            "target": "loc_7",
+            "distance": 2.63
+        },
+        {
+            "source": "loc_31",
+            "target": "thanisandra",
+            "distance": 3.21
+        },
+        {
+            "source": "loc_32",
+            "target": "malleshwaram",
+            "distance": 0.52
+        },
+        {
+            "source": "loc_32",
+            "target": "loc_4",
+            "distance": 0.63
+        },
+        {
+            "source": "loc_32",
+            "target": "loc_21",
+            "distance": 1.39
+        },
+        {
+            "source": "loc_33",
+            "target": "loc_6",
+            "distance": 9.09
+        },
+        {
+            "source": "loc_33",
+            "target": "loc_10",
+            "distance": 9.12
+        },
+        {
+            "source": "loc_33",
+            "target": "electronic_city",
+            "distance": 9.49
+        },
+        {
+            "source": "loc_34",
+            "target": "loc_11",
+            "distance": 0.28
+        },
+        {
+            "source": "loc_34",
+            "target": "mg_road",
+            "distance": 0.45
+        },
+        {
+            "source": "loc_34",
+            "target": "cubbon_park",
+            "distance": 2.22
+        },
+        {
+            "source": "loc_35",
+            "target": "loc_7",
+            "distance": 3.2
+        },
+        {
+            "source": "loc_35",
+            "target": "loc_31",
+            "distance": 3.74
+        },
+        {
+            "source": "loc_35",
+            "target": "loc_29",
+            "distance": 3.78
+        },
+        {
+            "source": "loc_36",
+            "target": "loc_8",
+            "distance": 4.09
+        },
+        {
+            "source": "loc_36",
+            "target": "loc_16",
+            "distance": 4.95
+        },
+        {
+            "source": "loc_36",
+            "target": "hulimavu",
+            "distance": 5.84
+        },
+        {
+            "source": "loc_37",
+            "target": "bel_circle",
+            "distance": 1.46
+        },
+        {
+            "source": "loc_37",
+            "target": "vidayaranyapura",
+            "distance": 2.1
+        },
+        {
+            "source": "loc_37",
+            "target": "sahakara_nagar",
+            "distance": 2.44
+        },
+        {
+            "source": "loc_38",
+            "target": "dasarahalli",
+            "distance": 1.14
+        },
+        {
+            "source": "loc_38",
+            "target": "jalahalli",
+            "distance": 1.48
+        },
+        {
+            "source": "loc_38",
+            "target": "peenya",
+            "distance": 2.97
+        },
+        {
+            "source": "loc_39",
+            "target": "loc_12",
+            "distance": 2.35
+        },
+        {
+            "source": "loc_39",
+            "target": "nagarbhavi",
+            "distance": 2.72
+        },
+        {
+            "source": "loc_39",
+            "target": "loc_28",
+            "distance": 2.87
+        },
+        {
+            "source": "hbr_layout",
+            "target": "hennur",
+            "distance": 0.7
+        },
+        {
+            "source": "basavanagudi",
+            "target": "vv_puram",
+            "distance": 1.12
+        },
+        {
+            "source": "rt_nagar",
+            "target": "sanjay_nagar",
+            "distance": 2.03
+        }
+    ]
+}

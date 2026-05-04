@@ -1,0 +1,1054 @@
+Pairs where A* vs Greedy Paths differ:
+
+Start: majestic | End: hebbal
+A* Path (13.5km): ['majestic', 'mg_road', 'rt_nagar', 'hebbal']
+G  Path (14.0km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal']
+--------------------------------------------------
+Start: majestic | End: yelahanka
+A* Path (22.2km): ['majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka']
+G  Path (22.7km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka']
+--------------------------------------------------
+Start: majestic | End: rt_nagar
+A* Path (10.5km): ['majestic', 'mg_road', 'rt_nagar']
+G  Path (17.0km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: majestic | End: bannerghatta_rd
+A* Path (15.899999999999999km): ['majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (16.2km): ['majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: majestic | End: arekere
+A* Path (18.4km): ['majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (18.7km): ['majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: majestic | End: hulimavu
+A* Path (20.2km): ['majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (20.5km): ['majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: majestic | End: hoodi
+A* Path (22.8km): ['majestic', 'mg_road', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (25.5km): ['majestic', 'mg_road', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: majestic | End: sahakara_nagar
+A* Path (16.7km): ['majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (17.2km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: majestic | End: jakkur
+A* Path (18.5km): ['majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (19.0km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: majestic | End: manyata
+A* Path (17.0km): ['majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (17.5km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: majestic | End: yelahanka_new_town
+A* Path (24.2km): ['majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (24.7km): ['majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: mg_road | End: yeshwanthpur
+A* Path (11.0km): ['mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur']
+G  Path (16.5km): ['mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur']
+--------------------------------------------------
+Start: mg_road | End: dasarahalli
+A* Path (17.7km): ['mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli']
+G  Path (23.2km): ['mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli']
+--------------------------------------------------
+Start: mg_road | End: jalahalli
+A* Path (19.2km): ['mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+G  Path (24.7km): ['mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+--------------------------------------------------
+Start: mg_road | End: mathikere
+A* Path (13.0km): ['mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'mathikere']
+G  Path (14.5km): ['mg_road', 'rt_nagar', 'hebbal', 'mathikere']
+--------------------------------------------------
+Start: mg_road | End: arekere
+A* Path (18.7km): ['mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (23.2km): ['mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: mg_road | End: hulimavu
+A* Path (20.5km): ['mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (25.0km): ['mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: mg_road | End: hoodi
+A* Path (18.3km): ['mg_road', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (21.0km): ['mg_road', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: mg_road | End: vidayaranyapura
+A* Path (18.5km): ['mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (24.0km): ['mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: mg_road | End: bel_circle
+A* Path (14.0km): ['mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (19.5km): ['mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: indiranagar | End: jayanagar
+A* Path (13.0km): ['indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar']
+G  Path (17.5km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar']
+--------------------------------------------------
+Start: indiranagar | End: jp_nagar
+A* Path (15.5km): ['indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'jp_nagar']
+G  Path (20.0km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'jp_nagar']
+--------------------------------------------------
+Start: indiranagar | End: yeshwanthpur
+A* Path (15.0km): ['indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur']
+G  Path (20.5km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur']
+--------------------------------------------------
+Start: indiranagar | End: banashankari
+A* Path (16.5km): ['indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (21.0km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: indiranagar | End: dasarahalli
+A* Path (21.7km): ['indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli']
+G  Path (27.2km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli']
+--------------------------------------------------
+Start: indiranagar | End: jalahalli
+A* Path (23.2km): ['indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+G  Path (28.7km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+--------------------------------------------------
+Start: indiranagar | End: mathikere
+A* Path (17.0km): ['indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'mathikere']
+G  Path (18.5km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'mathikere']
+--------------------------------------------------
+Start: indiranagar | End: wilson_garden
+A* Path (10.0km): ['indiranagar', 'domlur', 'koramangala', 'wilson_garden']
+G  Path (13.2km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'wilson_garden']
+--------------------------------------------------
+Start: indiranagar | End: shanti_nagar
+A* Path (11.2km): ['indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar']
+G  Path (12.0km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar']
+--------------------------------------------------
+Start: indiranagar | End: basavanagudi
+A* Path (14.2km): ['indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi']
+G  Path (15.0km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi']
+--------------------------------------------------
+Start: indiranagar | End: padmanabhanagar
+A* Path (18.5km): ['indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (23.0km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: indiranagar | End: kumaraswamy_layout
+A* Path (20.0km): ['indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+G  Path (24.5km): ['indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+--------------------------------------------------
+Start: indiranagar | End: kalyan_nagar
+A* Path (21.7km): ['indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (22.0km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: indiranagar | End: banaswadi
+A* Path (19.5km): ['indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (24.2km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: indiranagar | End: hoodi
+A* Path (14.3km): ['indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (17.0km): ['indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: indiranagar | End: vidayaranyapura
+A* Path (22.5km): ['indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (28.0km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: indiranagar | End: bel_circle
+A* Path (18.0km): ['indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (23.5km): ['indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: domlur | End: jayanagar
+A* Path (10.5km): ['domlur', 'koramangala', 'btm_layout', 'jayanagar']
+G  Path (14.2km): ['domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar']
+--------------------------------------------------
+Start: domlur | End: yeshwanthpur
+A* Path (17.5km): ['domlur', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur']
+G  Path (23.0km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur']
+--------------------------------------------------
+Start: domlur | End: banashankari
+A* Path (14.0km): ['domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (17.7km): ['domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: domlur | End: dasarahalli
+A* Path (24.2km): ['domlur', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli']
+G  Path (29.7km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli']
+--------------------------------------------------
+Start: domlur | End: jalahalli
+A* Path (25.7km): ['domlur', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+G  Path (31.2km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+--------------------------------------------------
+Start: domlur | End: mathikere
+A* Path (19.5km): ['domlur', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'mathikere']
+G  Path (21.0km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'mathikere']
+--------------------------------------------------
+Start: domlur | End: padmanabhanagar
+A* Path (16.0km): ['domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (19.7km): ['domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: domlur | End: kalyan_nagar
+A* Path (24.2km): ['domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (24.5km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: domlur | End: banaswadi
+A* Path (22.0km): ['domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (26.7km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: domlur | End: hoodi
+A* Path (16.8km): ['domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (19.5km): ['domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: domlur | End: vidayaranyapura
+A* Path (25.0km): ['domlur', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (30.5km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: domlur | End: bel_circle
+A* Path (20.5km): ['domlur', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (26.0km): ['domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: koramangala | End: jayanagar
+A* Path (7.5km): ['koramangala', 'btm_layout', 'jayanagar']
+G  Path (11.2km): ['koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar']
+--------------------------------------------------
+Start: koramangala | End: banashankari
+A* Path (11.0km): ['koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (14.7km): ['koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: koramangala | End: rt_nagar
+A* Path (15.5km): ['koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar']
+G  Path (26.2km): ['koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: koramangala | End: padmanabhanagar
+A* Path (13.0km): ['koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (16.7km): ['koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: koramangala | End: kalyan_nagar
+A* Path (27.2km): ['koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (27.5km): ['koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: koramangala | End: banaswadi
+A* Path (25.0km): ['koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (29.7km): ['koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: koramangala | End: hoodi
+A* Path (19.8km): ['koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (22.5km): ['koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: hsr_layout | End: jayanagar
+A* Path (11.5km): ['hsr_layout', 'koramangala', 'btm_layout', 'jayanagar']
+G  Path (15.2km): ['hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar']
+--------------------------------------------------
+Start: hsr_layout | End: banashankari
+A* Path (15.0km): ['hsr_layout', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (18.7km): ['hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: hsr_layout | End: rt_nagar
+A* Path (19.5km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar']
+G  Path (30.2km): ['hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: hsr_layout | End: padmanabhanagar
+A* Path (17.0km): ['hsr_layout', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (20.7km): ['hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: hsr_layout | End: kalyan_nagar
+A* Path (31.2km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (31.5km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: hsr_layout | End: banaswadi
+A* Path (29.0km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (33.7km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: hsr_layout | End: hoodi
+A* Path (23.8km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (26.5km): ['hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: btm_layout | End: yeshwanthpur
+A* Path (19.2km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur']
+G  Path (19.5km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur']
+--------------------------------------------------
+Start: btm_layout | End: malleshwaram
+A* Path (15.7km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram']
+G  Path (16.0km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram']
+--------------------------------------------------
+Start: btm_layout | End: rt_nagar
+A* Path (19.0km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar']
+G  Path (29.7km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: btm_layout | End: peenya
+A* Path (23.7km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya']
+G  Path (24.0km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya']
+--------------------------------------------------
+Start: btm_layout | End: dasarahalli
+A* Path (25.9km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli']
+G  Path (26.2km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli']
+--------------------------------------------------
+Start: btm_layout | End: jalahalli
+A* Path (27.4km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+G  Path (27.7km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+--------------------------------------------------
+Start: btm_layout | End: mathikere
+A* Path (21.2km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'mathikere']
+G  Path (21.5km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'mathikere']
+--------------------------------------------------
+Start: btm_layout | End: wilson_garden
+A* Path (8.0km): ['btm_layout', 'koramangala', 'wilson_garden']
+G  Path (10.7km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'wilson_garden']
+--------------------------------------------------
+Start: btm_layout | End: shanti_nagar
+A* Path (9.2km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar']
+G  Path (9.5km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar']
+--------------------------------------------------
+Start: btm_layout | End: kalyan_nagar
+A* Path (30.7km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (31.0km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: btm_layout | End: banaswadi
+A* Path (28.5km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (33.2km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: btm_layout | End: hoodi
+A* Path (23.3km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (26.0km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: btm_layout | End: sahakara_nagar
+A* Path (25.2km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (30.2km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: btm_layout | End: vidayaranyapura
+A* Path (26.7km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (27.0km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: btm_layout | End: bel_circle
+A* Path (22.2km): ['btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (22.5km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: btm_layout | End: yelahanka_new_town
+A* Path (32.7km): ['btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (37.7km): ['btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: jayanagar | End: hebbal
+A* Path (22.5km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal']
+G  Path (23.0km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal']
+--------------------------------------------------
+Start: jayanagar | End: yelahanka
+A* Path (31.2km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka']
+G  Path (31.7km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka']
+--------------------------------------------------
+Start: jayanagar | End: rt_nagar
+A* Path (19.5km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar']
+G  Path (26.0km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: jayanagar | End: banaswadi
+A* Path (32.5km): ['jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (40.900000000000006km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: jayanagar | End: hoodi
+A* Path (27.3km): ['jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (30.0km): ['jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: jayanagar | End: sahakara_nagar
+A* Path (25.7km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (26.2km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: jayanagar | End: jakkur
+A* Path (27.5km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (28.0km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: jayanagar | End: manyata
+A* Path (26.0km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (26.5km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: jayanagar | End: yelahanka_new_town
+A* Path (33.2km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (33.7km): ['jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: jp_nagar | End: hebbal
+A* Path (25.0km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal']
+G  Path (25.5km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal']
+--------------------------------------------------
+Start: jp_nagar | End: yelahanka
+A* Path (33.7km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka']
+G  Path (34.2km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka']
+--------------------------------------------------
+Start: jp_nagar | End: rt_nagar
+A* Path (22.0km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar']
+G  Path (28.5km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: jp_nagar | End: banaswadi
+A* Path (35.0km): ['jp_nagar', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (43.400000000000006km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: jp_nagar | End: hoodi
+A* Path (29.8km): ['jp_nagar', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (32.5km): ['jp_nagar', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: jp_nagar | End: sahakara_nagar
+A* Path (28.2km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (28.7km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: jp_nagar | End: jakkur
+A* Path (30.0km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (30.5km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: jp_nagar | End: manyata
+A* Path (28.5km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (29.0km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: jp_nagar | End: yelahanka_new_town
+A* Path (35.7km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (36.2km): ['jp_nagar', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: whitefield | End: malleshwaram
+A* Path (25.0km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram']
+G  Path (31.5km): ['whitefield', 'kr_puram', 'hebbal', 'yeshwanthpur', 'malleshwaram']
+--------------------------------------------------
+Start: whitefield | End: banashankari
+A* Path (30.0km): ['whitefield', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (34.5km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: whitefield | End: wilson_garden
+A* Path (23.5km): ['whitefield', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden']
+G  Path (26.7km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'wilson_garden']
+--------------------------------------------------
+Start: whitefield | End: shanti_nagar
+A* Path (24.7km): ['whitefield', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar']
+G  Path (25.5km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar']
+--------------------------------------------------
+Start: whitefield | End: basavanagudi
+A* Path (27.7km): ['whitefield', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi']
+G  Path (28.5km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi']
+--------------------------------------------------
+Start: whitefield | End: padmanabhanagar
+A* Path (32.0km): ['whitefield', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (36.5km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: whitefield | End: kumaraswamy_layout
+A* Path (33.5km): ['whitefield', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+G  Path (38.0km): ['whitefield', 'marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+--------------------------------------------------
+Start: whitefield | End: manyata
+A* Path (21.7km): ['whitefield', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara', 'manyata']
+G  Path (24.0km): ['whitefield', 'kr_puram', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: whitefield | End: nagavara
+A* Path (20.5km): ['whitefield', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara']
+G  Path (25.2km): ['whitefield', 'kr_puram', 'hebbal', 'manyata', 'nagavara']
+--------------------------------------------------
+Start: marathahalli | End: hebbal
+A* Path (19.0km): ['marathahalli', 'mahadevapura', 'kr_puram', 'hebbal']
+G  Path (20.0km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal']
+--------------------------------------------------
+Start: marathahalli | End: yeshwanthpur
+A* Path (22.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur']
+G  Path (27.5km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur']
+--------------------------------------------------
+Start: marathahalli | End: banashankari
+A* Path (23.5km): ['marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (28.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: marathahalli | End: yelahanka
+A* Path (27.7km): ['marathahalli', 'mahadevapura', 'kr_puram', 'hebbal', 'sahakara_nagar', 'yelahanka']
+G  Path (28.7km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka']
+--------------------------------------------------
+Start: marathahalli | End: dasarahalli
+A* Path (28.7km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli']
+G  Path (34.2km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli']
+--------------------------------------------------
+Start: marathahalli | End: jalahalli
+A* Path (30.2km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+G  Path (35.7km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'peenya', 'dasarahalli', 'jalahalli']
+--------------------------------------------------
+Start: marathahalli | End: mathikere
+A* Path (24.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'mathikere']
+G  Path (25.5km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'mathikere']
+--------------------------------------------------
+Start: marathahalli | End: wilson_garden
+A* Path (17.0km): ['marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden']
+G  Path (20.2km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'wilson_garden']
+--------------------------------------------------
+Start: marathahalli | End: shanti_nagar
+A* Path (18.2km): ['marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar']
+G  Path (19.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar']
+--------------------------------------------------
+Start: marathahalli | End: basavanagudi
+A* Path (21.2km): ['marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi']
+G  Path (22.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi']
+--------------------------------------------------
+Start: marathahalli | End: padmanabhanagar
+A* Path (25.5km): ['marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (30.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: marathahalli | End: kumaraswamy_layout
+A* Path (27.0km): ['marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+G  Path (31.5km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+--------------------------------------------------
+Start: marathahalli | End: kalyan_nagar
+A* Path (14.7km): ['marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (29.0km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: marathahalli | End: banaswadi
+A* Path (12.5km): ['marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (31.2km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: marathahalli | End: hbr_layout
+A* Path (16.5km): ['marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout']
+G  Path (27.2km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout']
+--------------------------------------------------
+Start: marathahalli | End: hoodi
+A* Path (7.3km): ['marathahalli', 'mahadevapura', 'hoodi']
+G  Path (10.0km): ['marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: marathahalli | End: sahakara_nagar
+A* Path (22.2km): ['marathahalli', 'mahadevapura', 'kr_puram', 'hebbal', 'sahakara_nagar']
+G  Path (23.2km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: marathahalli | End: vidayaranyapura
+A* Path (29.5km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (35.0km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: marathahalli | End: bel_circle
+A* Path (25.0km): ['marathahalli', 'indiranagar', 'mg_road', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (30.5km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: marathahalli | End: jakkur
+A* Path (24.0km): ['marathahalli', 'mahadevapura', 'kr_puram', 'hebbal', 'jakkur']
+G  Path (25.0km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: marathahalli | End: manyata
+A* Path (20.2km): ['marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara', 'manyata']
+G  Path (23.5km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: marathahalli | End: nagavara
+A* Path (19.0km): ['marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara']
+G  Path (24.7km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara']
+--------------------------------------------------
+Start: marathahalli | End: thanisandra
+A* Path (27.5km): ['marathahalli', 'mahadevapura', 'kr_puram', 'hebbal', 'jakkur', 'thanisandra']
+G  Path (28.5km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur', 'thanisandra']
+--------------------------------------------------
+Start: marathahalli | End: yelahanka_new_town
+A* Path (29.7km): ['marathahalli', 'mahadevapura', 'kr_puram', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (30.7km): ['marathahalli', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: kr_puram | End: banashankari
+A* Path (31.0km): ['kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (38.0km): ['kr_puram', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: kr_puram | End: wilson_garden
+A* Path (24.5km): ['kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden']
+G  Path (29.7km): ['kr_puram', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'wilson_garden']
+--------------------------------------------------
+Start: kr_puram | End: shanti_nagar
+A* Path (25.7km): ['kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar']
+G  Path (28.5km): ['kr_puram', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar']
+--------------------------------------------------
+Start: kr_puram | End: basavanagudi
+A* Path (28.7km): ['kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi']
+G  Path (32.0km): ['kr_puram', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi']
+--------------------------------------------------
+Start: kr_puram | End: padmanabhanagar
+A* Path (33.0km): ['kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (40.0km): ['kr_puram', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: kr_puram | End: kumaraswamy_layout
+A* Path (34.5km): ['kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+G  Path (41.5km): ['kr_puram', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+--------------------------------------------------
+Start: kr_puram | End: hoodi
+A* Path (5.8km): ['kr_puram', 'mahadevapura', 'hoodi']
+G  Path (12.5km): ['kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: kr_puram | End: manyata
+A* Path (12.7km): ['kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara', 'manyata']
+G  Path (15.0km): ['kr_puram', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: kr_puram | End: nagavara
+A* Path (11.5km): ['kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara']
+G  Path (16.2km): ['kr_puram', 'hebbal', 'manyata', 'nagavara']
+--------------------------------------------------
+Start: hebbal | End: electronic_city
+A* Path (33.5km): ['hebbal', 'rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'hsr_layout', 'electronic_city']
+G  Path (46.5km): ['hebbal', 'kr_puram', 'mahadevapura', 'marathahalli', 'indiranagar', 'domlur', 'koramangala', 'hsr_layout', 'electronic_city']
+--------------------------------------------------
+Start: hebbal | End: banashankari
+A* Path (26.0km): ['hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+G  Path (26.5km): ['hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: hebbal | End: basavanagudi
+A* Path (20.0km): ['hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi']
+G  Path (20.5km): ['hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi']
+--------------------------------------------------
+Start: hebbal | End: padmanabhanagar
+A* Path (28.0km): ['hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (28.5km): ['hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: hebbal | End: kumaraswamy_layout
+A* Path (29.5km): ['hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+G  Path (30.0km): ['hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+--------------------------------------------------
+Start: hebbal | End: arekere
+A* Path (27.7km): ['hebbal', 'rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (32.2km): ['hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: hebbal | End: hulimavu
+A* Path (29.5km): ['hebbal', 'rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (34.0km): ['hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: hebbal | End: hoodi
+A* Path (17.3km): ['hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (24.0km): ['hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: yeshwanthpur | End: bannerghatta_rd
+A* Path (22.4km): ['yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (22.7km): ['yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: yeshwanthpur | End: arekere
+A* Path (24.9km): ['yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (25.2km): ['yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: yeshwanthpur | End: hulimavu
+A* Path (26.7km): ['yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (27.0km): ['yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: yeshwanthpur | End: hoodi
+A* Path (24.8km): ['yeshwanthpur', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (31.5km): ['yeshwanthpur', 'hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: malleshwaram | End: rt_nagar
+A* Path (13.5km): ['malleshwaram', 'majestic', 'mg_road', 'rt_nagar']
+G  Path (14.0km): ['malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: malleshwaram | End: bannerghatta_rd
+A* Path (18.9km): ['malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (19.2km): ['malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: malleshwaram | End: arekere
+A* Path (21.4km): ['malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (21.7km): ['malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: malleshwaram | End: hulimavu
+A* Path (23.2km): ['malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (23.5km): ['malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: malleshwaram | End: kalyan_nagar
+A* Path (20.0km): ['malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+G  Path (25.5km): ['malleshwaram', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: malleshwaram | End: banaswadi
+A* Path (22.2km): ['malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+G  Path (27.7km): ['malleshwaram', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: malleshwaram | End: hoodi
+A* Path (25.8km): ['malleshwaram', 'majestic', 'mg_road', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (28.5km): ['malleshwaram', 'majestic', 'mg_road', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: electronic_city | End: banashankari
+A* Path (26.0km): ['electronic_city', 'hsr_layout', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari']
+G  Path (29.7km): ['electronic_city', 'hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari']
+--------------------------------------------------
+Start: electronic_city | End: rt_nagar
+A* Path (30.5km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar']
+G  Path (41.2km): ['electronic_city', 'hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: electronic_city | End: padmanabhanagar
+A* Path (28.0km): ['electronic_city', 'hsr_layout', 'koramangala', 'btm_layout', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (31.7km): ['electronic_city', 'hsr_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: electronic_city | End: kalyan_nagar
+A* Path (42.2km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (42.5km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: electronic_city | End: banaswadi
+A* Path (40.0km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (44.7km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: electronic_city | End: hoodi
+A* Path (34.8km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (37.5km): ['electronic_city', 'hsr_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: banashankari | End: yelahanka
+A* Path (34.7km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka']
+G  Path (35.2km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka']
+--------------------------------------------------
+Start: banashankari | End: rt_nagar
+A* Path (23.0km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar']
+G  Path (29.5km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'rt_nagar']
+--------------------------------------------------
+Start: banashankari | End: banaswadi
+A* Path (36.0km): ['banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (44.400000000000006km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: banashankari | End: hoodi
+A* Path (30.8km): ['banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (33.5km): ['banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: banashankari | End: sahakara_nagar
+A* Path (29.2km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (29.7km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: banashankari | End: jakkur
+A* Path (31.0km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (31.5km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: banashankari | End: manyata
+A* Path (29.5km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (30.0km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: banashankari | End: yelahanka_new_town
+A* Path (36.7km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (37.2km): ['banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: yelahanka | End: basavanagudi
+A* Path (28.7km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi']
+G  Path (29.2km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi']
+--------------------------------------------------
+Start: yelahanka | End: padmanabhanagar
+A* Path (36.7km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+G  Path (37.2km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar']
+--------------------------------------------------
+Start: yelahanka | End: kumaraswamy_layout
+A* Path (38.2km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+G  Path (38.7km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'banashankari', 'padmanabhanagar', 'kumaraswamy_layout']
+--------------------------------------------------
+Start: yelahanka | End: arekere
+A* Path (36.4km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (40.900000000000006km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: yelahanka | End: hulimavu
+A* Path (38.199999999999996km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (42.7km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: yelahanka | End: hoodi
+A* Path (26.0km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (32.7km): ['yelahanka', 'sahakara_nagar', 'hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: rt_nagar | End: arekere
+A* Path (24.7km): ['rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (29.2km): ['rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: rt_nagar | End: hulimavu
+A* Path (26.5km): ['rt_nagar', 'mg_road', 'indiranagar', 'domlur', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (31.0km): ['rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: rt_nagar | End: mahadevapura
+A* Path (17.5km): ['rt_nagar', 'hebbal', 'kr_puram', 'mahadevapura']
+G  Path (21.5km): ['rt_nagar', 'mg_road', 'indiranagar', 'marathahalli', 'mahadevapura']
+--------------------------------------------------
+Start: rt_nagar | End: hoodi
+A* Path (20.3km): ['rt_nagar', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (27.0km): ['rt_nagar', 'mg_road', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: rt_nagar | End: kadugodi
+A* Path (27.5km): ['rt_nagar', 'hebbal', 'kr_puram', 'whitefield', 'kadugodi']
+G  Path (27.5km): ['rt_nagar', 'mg_road', 'indiranagar', 'marathahalli', 'whitefield', 'kadugodi']
+--------------------------------------------------
+Start: peenya | End: bannerghatta_rd
+A* Path (26.9km): ['peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (27.2km): ['peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: peenya | End: arekere
+A* Path (29.4km): ['peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (29.7km): ['peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: peenya | End: hulimavu
+A* Path (31.2km): ['peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (31.5km): ['peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: peenya | End: hoodi
+A* Path (29.3km): ['peenya', 'yeshwanthpur', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (36.0km): ['peenya', 'yeshwanthpur', 'hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: dasarahalli | End: bannerghatta_rd
+A* Path (29.099999999999998km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (29.4km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: dasarahalli | End: arekere
+A* Path (31.599999999999998km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (31.9km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: dasarahalli | End: hulimavu
+A* Path (33.4km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (33.699999999999996km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: dasarahalli | End: hoodi
+A* Path (31.5km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (38.2km): ['dasarahalli', 'peenya', 'yeshwanthpur', 'hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: jalahalli | End: bannerghatta_rd
+A* Path (30.599999999999998km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (30.9km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: jalahalli | End: arekere
+A* Path (33.099999999999994km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (33.4km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: jalahalli | End: hulimavu
+A* Path (34.89999999999999km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (35.199999999999996km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: jalahalli | End: hoodi
+A* Path (33.0km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (39.7km): ['jalahalli', 'dasarahalli', 'peenya', 'yeshwanthpur', 'hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: mathikere | End: wilson_garden
+A* Path (13.2km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden']
+G  Path (23.7km): ['mathikere', 'hebbal', 'rt_nagar', 'mg_road', 'majestic', 'shanti_nagar', 'wilson_garden']
+--------------------------------------------------
+Start: mathikere | End: bannerghatta_rd
+A* Path (24.4km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (24.7km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: mathikere | End: arekere
+A* Path (26.9km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (27.2km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: mathikere | End: hulimavu
+A* Path (28.7km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (29.0km): ['mathikere', 'yeshwanthpur', 'malleshwaram', 'majestic', 'shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: mathikere | End: hoodi
+A* Path (22.8km): ['mathikere', 'hebbal', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (29.5km): ['mathikere', 'hebbal', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: wilson_garden | End: banaswadi
+A* Path (29.4km): ['wilson_garden', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+G  Path (34.2km): ['wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: wilson_garden | End: hoodi
+A* Path (24.3km): ['wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (27.0km): ['wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: wilson_garden | End: sahakara_nagar
+A* Path (21.4km): ['wilson_garden', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (21.9km): ['wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: wilson_garden | End: jakkur
+A* Path (23.2km): ['wilson_garden', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (23.7km): ['wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: wilson_garden | End: manyata
+A* Path (21.7km): ['wilson_garden', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (22.2km): ['wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: wilson_garden | End: yelahanka_new_town
+A* Path (28.9km): ['wilson_garden', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (29.4km): ['wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: shanti_nagar | End: bannerghatta_rd
+A* Path (12.399999999999999km): ['shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd']
+G  Path (12.7km): ['shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd']
+--------------------------------------------------
+Start: shanti_nagar | End: arekere
+A* Path (14.899999999999999km): ['shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere']
+G  Path (15.2km): ['shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere']
+--------------------------------------------------
+Start: shanti_nagar | End: hulimavu
+A* Path (16.7km): ['shanti_nagar', 'wilson_garden', 'koramangala', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+G  Path (17.0km): ['shanti_nagar', 'basavanagudi', 'jayanagar', 'btm_layout', 'bannerghatta_rd', 'arekere', 'hulimavu']
+--------------------------------------------------
+Start: shanti_nagar | End: banaswadi
+A* Path (28.2km): ['shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+G  Path (35.4km): ['shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: shanti_nagar | End: hoodi
+A* Path (25.5km): ['shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (28.2km): ['shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: shanti_nagar | End: sahakara_nagar
+A* Path (20.2km): ['shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (20.7km): ['shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: shanti_nagar | End: jakkur
+A* Path (22.0km): ['shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (22.5km): ['shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: shanti_nagar | End: manyata
+A* Path (20.5km): ['shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (21.0km): ['shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: shanti_nagar | End: yelahanka_new_town
+A* Path (27.7km): ['shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (28.2km): ['shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: basavanagudi | End: banaswadi
+A* Path (31.2km): ['basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+G  Path (38.4km): ['basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: basavanagudi | End: hoodi
+A* Path (28.5km): ['basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (31.2km): ['basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: basavanagudi | End: sahakara_nagar
+A* Path (23.2km): ['basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (23.7km): ['basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: basavanagudi | End: jakkur
+A* Path (25.0km): ['basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (25.5km): ['basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: basavanagudi | End: manyata
+A* Path (23.5km): ['basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (24.0km): ['basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: basavanagudi | End: yelahanka_new_town
+A* Path (30.7km): ['basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (31.2km): ['basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: padmanabhanagar | End: banaswadi
+A* Path (38.0km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (46.400000000000006km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: padmanabhanagar | End: hoodi
+A* Path (32.8km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (35.5km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: padmanabhanagar | End: sahakara_nagar
+A* Path (31.2km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (31.7km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: padmanabhanagar | End: jakkur
+A* Path (33.0km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (33.5km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: padmanabhanagar | End: manyata
+A* Path (31.5km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (32.0km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: padmanabhanagar | End: yelahanka_new_town
+A* Path (38.7km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (39.2km): ['padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: kumaraswamy_layout | End: banaswadi
+A* Path (39.5km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (47.900000000000006km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'wilson_garden', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: kumaraswamy_layout | End: hoodi
+A* Path (34.3km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (37.0km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: kumaraswamy_layout | End: sahakara_nagar
+A* Path (32.7km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (33.2km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: kumaraswamy_layout | End: jakkur
+A* Path (34.5km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'jakkur']
+G  Path (35.0km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'jakkur']
+--------------------------------------------------
+Start: kumaraswamy_layout | End: manyata
+A* Path (33.0km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'manyata']
+G  Path (33.5km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: kumaraswamy_layout | End: yelahanka_new_town
+A* Path (40.2km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (40.7km): ['kumaraswamy_layout', 'padmanabhanagar', 'banashankari', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: bannerghatta_rd | End: kalyan_nagar
+A* Path (33.9km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (34.199999999999996km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: bannerghatta_rd | End: banaswadi
+A* Path (31.7km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (36.4km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: bannerghatta_rd | End: hoodi
+A* Path (26.5km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (29.2km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: bannerghatta_rd | End: sahakara_nagar
+A* Path (28.4km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (33.4km): ['bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: bannerghatta_rd | End: vidayaranyapura
+A* Path (29.9km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (30.2km): ['bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: bannerghatta_rd | End: bel_circle
+A* Path (25.4km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (25.7km): ['bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: bannerghatta_rd | End: yelahanka_new_town
+A* Path (35.9km): ['bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (40.9km): ['bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: arekere | End: kalyan_nagar
+A* Path (36.400000000000006km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (36.699999999999996km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: arekere | End: banaswadi
+A* Path (34.2km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (38.9km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: arekere | End: hoodi
+A* Path (29.0km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (31.7km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: arekere | End: sahakara_nagar
+A* Path (30.9km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (35.900000000000006km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: arekere | End: vidayaranyapura
+A* Path (32.4km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (32.7km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: arekere | End: bel_circle
+A* Path (27.9km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (28.2km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: arekere | End: yelahanka_new_town
+A* Path (38.4km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (43.400000000000006km): ['arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: hulimavu | End: kalyan_nagar
+A* Path (38.2km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar']
+G  Path (38.5km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar']
+--------------------------------------------------
+Start: hulimavu | End: banaswadi
+A* Path (36.0km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'kr_puram', 'banaswadi']
+G  Path (40.7km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'manyata', 'nagavara', 'hbr_layout', 'kalyan_nagar', 'banaswadi']
+--------------------------------------------------
+Start: hulimavu | End: hoodi
+A* Path (30.8km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'mahadevapura', 'hoodi']
+G  Path (33.5km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'marathahalli', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: hulimavu | End: sahakara_nagar
+A* Path (32.7km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar']
+G  Path (37.7km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar']
+--------------------------------------------------
+Start: hulimavu | End: vidayaranyapura
+A* Path (34.2km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+G  Path (34.5km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle', 'vidayaranyapura']
+--------------------------------------------------
+Start: hulimavu | End: bel_circle
+A* Path (29.7km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'wilson_garden', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+G  Path (30.0km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'bel_circle']
+--------------------------------------------------
+Start: hulimavu | End: yelahanka_new_town
+A* Path (40.2km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'koramangala', 'domlur', 'indiranagar', 'mg_road', 'rt_nagar', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+G  Path (45.2km): ['hulimavu', 'arekere', 'bannerghatta_rd', 'btm_layout', 'jayanagar', 'basavanagudi', 'shanti_nagar', 'majestic', 'malleshwaram', 'yeshwanthpur', 'hebbal', 'sahakara_nagar', 'yelahanka', 'yelahanka_new_town']
+--------------------------------------------------
+Start: kalyan_nagar | End: hoodi
+A* Path (13.0km): ['kalyan_nagar', 'banaswadi', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (19.7km): ['kalyan_nagar', 'banaswadi', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: banaswadi | End: hoodi
+A* Path (10.8km): ['banaswadi', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (17.5km): ['banaswadi', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: hbr_layout | End: hoodi
+A* Path (14.8km): ['hbr_layout', 'kalyan_nagar', 'banaswadi', 'kr_puram', 'mahadevapura', 'hoodi']
+G  Path (21.5km): ['hbr_layout', 'kalyan_nagar', 'banaswadi', 'kr_puram', 'whitefield', 'hoodi']
+--------------------------------------------------
+Start: mahadevapura | End: manyata
+A* Path (15.7km): ['mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara', 'manyata']
+G  Path (18.0km): ['mahadevapura', 'kr_puram', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: mahadevapura | End: nagavara
+A* Path (14.5km): ['mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara']
+G  Path (19.2km): ['mahadevapura', 'kr_puram', 'hebbal', 'manyata', 'nagavara']
+--------------------------------------------------
+Start: hoodi | End: manyata
+A* Path (18.5km): ['hoodi', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara', 'manyata']
+G  Path (20.8km): ['hoodi', 'mahadevapura', 'kr_puram', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: hoodi | End: nagavara
+A* Path (17.3km): ['hoodi', 'mahadevapura', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara']
+G  Path (22.0km): ['hoodi', 'mahadevapura', 'kr_puram', 'hebbal', 'manyata', 'nagavara']
+--------------------------------------------------
+Start: kadugodi | End: manyata
+A* Path (25.7km): ['kadugodi', 'whitefield', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara', 'manyata']
+G  Path (28.0km): ['kadugodi', 'whitefield', 'kr_puram', 'hebbal', 'manyata']
+--------------------------------------------------
+Start: kadugodi | End: nagavara
+A* Path (24.5km): ['kadugodi', 'whitefield', 'kr_puram', 'banaswadi', 'kalyan_nagar', 'hbr_layout', 'nagavara']
+G  Path (29.2km): ['kadugodi', 'whitefield', 'kr_puram', 'hebbal', 'manyata', 'nagavara']
+--------------------------------------------------
